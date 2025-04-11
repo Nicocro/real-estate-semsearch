@@ -33,7 +33,15 @@ This project implements a vector-based semantic search system for real estate li
 - **Frontend**: Lovable (with custom modifications)
 - **Dataset**: MongoDB Airbnb listings
 
+## Demo
+
+[![Real Estate Semantic Search Demo](https://cdn.loom.com/sessions/thumbnails/b4c2e982a3774775bf4af72429189060-882bfb1be9b04ee9-full-play.gif)](https://www.loom.com/share/b4c2e982a3774775bf4af72429189060)
+
+*Click the image above to watch a demonstration of the application*
+
 ## Getting Started
+
+
 
 ### Prerequisites
 

@@ -15,8 +15,8 @@ logger = logging.getLogger(__name__)
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Load FAISS index and property descriptions
-index = faiss.read_index(os.path.join(PROJECT_ROOT, "text_embeddings.index"))
-with open(os.path.join(PROJECT_ROOT, "metadata.pkl"), "rb") as f:
+index = faiss.read_index(os.path.join(PROJECT_ROOT, "data/text_embeddings.index"))
+with open(os.path.join(PROJECT_ROOT, "data/metadata.pkl"), "rb") as f:
     metadata = pickle.load(f)
 
 # OpenAI API Key (Replace with your key)

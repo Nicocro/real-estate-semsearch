@@ -1,0 +1,8 @@
+fastapi
+uvicorn  # for running the FastAPI app
+pydantic
+faiss-cpu  # using CPU version, use faiss-gpu if GPU is needed
+numpy
+openai  
+python-multipart  
+datasets  # for loading the HuggingFace dataset
